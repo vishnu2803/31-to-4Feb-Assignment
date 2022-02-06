@@ -1,0 +1,14 @@
+package com.company;
+import java.util.*;
+
+public class A_B_C {
+    static void count_digits(int n) {
+        String num = Integer.toString(n);
+        System.out.println(+num.length());
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        count_digits(n);
+    }
+}

@@ -1,0 +1,13 @@
+package com.company;
+import java.util.*;
+
+public class GeeksterAssignment {
+    public static void main(String[] args) {
+        //Write a program to convert Fahrenheit into Celsius.
+        { float Fahrenheit, Celsius;
+            Fahrenheit = 40;
+            Celsius  = ((Fahrenheit-32)*5)/9;
+            System.out.println("Temperature in celsius is:- " + Celsius );
+        }
+    }
+}

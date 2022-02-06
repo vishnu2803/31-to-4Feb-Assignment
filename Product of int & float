@@ -1,0 +1,12 @@
+package com.company;
+import java.util.*;
+
+public class GeeksterAssignment {
+    public static void main(String[] args) {
+   //1.Write a program to print the product of the decimal and int numbers ex: 8.2 and 6
+        float a = 8.2f;
+        int b = 6;
+        float sum = a+b;
+        System.out.println(sum);
+    }
+}

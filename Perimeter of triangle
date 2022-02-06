@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class PerimeterOfTriangle {
+    public static void main(String[] args) {
+        float A1 = 2;
+        float A2 = 3;
+        float A3 = 5;
+        float sum = A1+A2+A3;
+        System.out.println("perimeter of a triangle is: " +sum );
+        }
+}

@@ -1,0 +1,36 @@
+package com.company;
+import java.util.*;
+
+
+public class A_B_C {
+    public static void main(String[] args) {
+ 
+ // Solution using 3 variables
+       int x, y, t;// x and y are to swap
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of X and Y");
+        x = 6;
+        y = 8;
+        System.out.println("before swapping numbers: "+x +"  "+ y);
+        *//*swapping *//*
+        t = x;
+        x = y;
+        y = t;
+        System.out.println("After swapping: "+x +"   " + y);
+        System.out.println( );
+ 
+ // solution using without using any third variable
+        System.out.println("Before swapping");
+        int x = 6;
+        int y = 8;
+        System.out.println("value of x:" + x);
+        System.out.println("value of y:" + y);
+        System.out.println("After swapping");
+        x = x + y;
+        y = x - y;
+        x = x - y;
+        System.out.println("value of x:" + x);
+        System.out.println("value of y:" + y);
+
+    }
+ }

@@ -1,0 +1,17 @@
+package com.company;
+import java.util.*;
+
+/*
+WAP to check whether given number is lesser or
+        greater than 10 if its lesser than check further if its lesser or greater than
+        5 using ternary operator and Print greater or smaller accordingly..
+*/
+public class A_B_C {
+    public static void main(String[] args) {
+        System.out.println("enter your number");
+        Scanner sc=new Scanner(System.in);
+        int num=sc.nextInt();
+        String str= num>10?"number is greater 10\nnumber is greater 5":num>5?"number is less than 10 \nnumber is greater 5":"number is less than 10 \nnumber is lesser 5";
+        System.out.print(str);
+    }
+ }
